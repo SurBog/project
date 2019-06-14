@@ -12,6 +12,7 @@ namespace TPS
     public class DB
     {
         //string str = ConfigurationManager.ConnectionStrings["MyKey"].ConnectionString;
+        string str = "server=localhost;user=root;database=TPS;password=151344;";
         static MySqlConnection Start;
 
         public DB()
